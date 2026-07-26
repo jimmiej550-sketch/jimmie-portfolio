@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jimmie J Johnson Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scroll-art" aria-hidden="true">
+    <span class="shape circle" data-speed="0.06"></span>
+    <span class="shape circle small" data-speed="0.08"></span>
+    <span class="shape glow" data-speed="0.03"></span>
+    <span class="shape line" data-speed="0.12"></span>
+    <span class="shape line thin" data-speed="0.18"></span>
+  </div>
+
+  <header class="hero">
+    <nav class="top-nav">
+      <a href="#" class="logo">Jimmie J Johnson</a>
+      <div class="nav-links">
+        <a href="#videos">Videos</a>
+        <a href="#photos">Photos</a>
+        <a href="#contact">Contact</a>
+        <a href="#" class="menu-link" id="menuOpen">Menu</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">WE’RE A CREATIVE STUDIO DELIVERING</p>
+      <h1>AMAZING EARTHLY DIGITAL EXPERIENCES</h1>
+      <p class="hero-copy">
+        Stories rooted in nature, crafted through film, photography, and design with a calm, immersive mood.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#videos">Watch work</a>
+        <a class="button secondary" href="#contact">Get in touch</a>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="line"></div>
+    </div>
+  </header>
+
+  <div class="menu-overlay" id="menuOverlay" aria-hidden="true">
+    <div class="menu-window">
+      <button class="menu-close" id="menuClose">✕</button>
+      <div class="menu-content">
+        <p class="eyebrow">Menu</p>
+        <h2>Explore more of my work.</h2>
+        <p>Browse videos, photos, and creative projects in a calm, natural space.</p>
+        <div class="menu-links">
+          <a href="#videos">Videos</a>
+          <a href="#photos">Photos</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="menu-pics">
+          <img src="https://images.unsplash.com/photo-1526318472351-bc6a1c1ae5dc?auto=format&fit=crop&w=600&q=80" alt="Creative sample 1" />
+          <img src="https://images.unsplash.com/photo-1496284045406-d7f35c9f8937?auto=format&fit=crop&w=600&q=80" alt="Creative sample 2" />
+          <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80" alt="Creative sample 3" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section id="about" class="intro-card">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>Rooted in creativity, shaped by experience.</h2>
+        <p>I create visual work that feels personal, grounded, and expressive. This portfolio is designed to feel warm, natural, and immersive.</p>
+      </div>
+      <div class="image-frame soft">
+        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80" alt="Nature and creative atmosphere" />
+      </div>
+    </section>
+
+    <section id="videos" class="media-section">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Videos</p>
+        <h2>Video work that carries motion, feeling, and story.</h2>
+      </div>
+      <div class="media-grid">
+        <div class="media-card">
+          <video controls poster="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+          </video>
+          <h3>Short film piece</h3>
+          <p>Atmospheric and cinematic.</p>
+        </div>
+        <div class="media-card">
+          <video controls poster="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80">
+            <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4" />
+          </video>
+          <h3>Creative reel</h3>
+          <p>Movement, texture, and rhythm.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="photos" class="media-section alt-media">
+      <div class="section-heading">
+        <p class="eyebrow">Photos</p>
+        <h2>Still moments shaped by light, texture, and atmosphere.</h2>
+      </div>
+      <div class="photo-grid">
+        <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800&q=80" alt="Forest landscape" />
+        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80" alt="Mountain view" />
+        <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80" alt="Desert scene" />
+      </div>
+    </section>
+
+    <section class="long-section">
+      <h2>Work that feels grounded and personal.</h2>
+      <p>This portfolio is meant to feel natural and inviting, with warm tones and thoughtful pacing.</p>
+      <div class="mini-cards">
+        <div class="mini-card">Natural textures</div>
+        <div class="mini-card">Personal stories</div>
+        <div class="mini-card">Cinematic flow</div>
+        <div class="mini-card">Organic design</div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-card">
+      <h2>Let’s make something meaningful.</h2>
+      <p>Reach out for collaborations, creative projects, or shared ideas.</p>
+      <a class="button primary" href="mailto:hello@example.com">Get in touch</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Jimmie J Johnson Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
